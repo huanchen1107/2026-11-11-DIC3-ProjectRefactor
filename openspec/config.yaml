@@ -1,0 +1,26 @@
+# OpenSpec project configuration for DIC3 Project Refactor
+# Initialized as a lightweight scaffold. Run 'openspec init' locally
+# to generate agent-specific skills and commands.
+schema: spec-driven
+
+context: |
+  DIC3 Project Refactor is a repository for organizing project plans,
+  architectural decisions, requirements, and implementation work.
+  Existing planning documents are maintained in myplan/.
+  DietSense is a planned personalized weight-management AI Agent.
+  Its four core concepts are natural language input, proactive interaction,
+  context awareness, and big-data-driven intelligence.
+  Preserve the distinction between proposed outcomes and verified results.
+
+rules:
+  proposal:
+    - State the problem, motivation, scope, risks, and expected outcome.
+    - Do not claim unverified findings as measured results.
+  specs:
+    - Use testable SHALL requirements and WHEN/THEN scenarios.
+    - Distinguish data retrieval, model inference, and safety decisions.
+  design:
+    - Include data provenance, privacy, uncertainty, and validation strategy.
+  tasks:
+    - Keep implementation steps small and independently verifiable.
+    - Do not deploy or merge without explicit approval.
